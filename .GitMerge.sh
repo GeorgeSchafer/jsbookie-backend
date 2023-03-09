@@ -34,3 +34,6 @@ git push
 # Optional: Prune outstanding branches
   # git remote prune origin
   # git prune
+
+# To Remove local branches:
+# git branch --merged main | grep -v '^[ *]*master$' | xargs git branch -d
