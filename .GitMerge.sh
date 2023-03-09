@@ -36,4 +36,4 @@ git push
   # git prune
 
 # To Remove local branches:
-# git branch --merged main | grep -v '^[ *]*main$' | xargs git branch -d
+# 
