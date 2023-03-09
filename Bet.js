@@ -1,9 +1,13 @@
 
 class User {
 
-  this.user_id = 0;
-
+  
+  static constructor(){
+    this.user_id = 0;
+  }
+  
   constructor( name ){
+    this.constructor();
     this.balance = {
       deposit: 0,
       winnings: 0
